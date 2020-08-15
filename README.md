@@ -1,4 +1,6 @@
 # DME 2020 Code Template
 Repository for MIT Discover Mechanical Engineering project code.<br/>
 <br/>
-Download the code and extract the zip file into any folder
+Click the download code button <br/>
+Download zip<br/>
+Extract the zip file into any folder
