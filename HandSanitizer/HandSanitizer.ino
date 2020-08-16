@@ -3,9 +3,9 @@
 #include "NewPing.h" //Helps parsing ultrasonic sensor data
 
 /*Define Arduino Pins (Digital) */
-#define SERVO_PIN 10
-#define SONAR_TRIG 7
-#define SONAR_ECHO 8
+#define SERVO_PIN 11
+#define SONAR_TRIG 13
+#define SONAR_ECHO 12
 
 /*Define Parameters */
 #define SONAR_THRESHOLD 8 // Threshold distance in which to actuate the servo[cm]
