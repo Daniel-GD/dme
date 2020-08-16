@@ -1,6 +1,6 @@
 /*Include Dependencies */
-#include <Servo.h>
-#include "NewPing.h"
+#include <Servo.h> //Helps sending commands to servos
+#include "NewPing.h" //Helps parsing ultrasonic sensor data
 
 /*Define Arduino Pins (Digital) */
 #define SERVO_PIN 10
