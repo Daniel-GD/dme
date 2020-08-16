@@ -29,7 +29,8 @@ void loop() {
   int sonar_reading= sonar.ping_cm(); //sonar reading in cm
   //Print Sonar Output
   Serial.print("Sonar Reading: ");
-  Serial.println(sonar_reading);
+  Serial.print(sonar_reading);
+  Serial.println(" cm");
   
   if (sonar_reading<SONAR_THRESHOLD){
     myservo.write(PUMP_ANGLE); //actuates servo to pull the string
