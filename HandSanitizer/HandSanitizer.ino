@@ -17,8 +17,6 @@
 Servo myservo; // instantiate servo object
 NewPing sonar(SONAR_TRIG, SONAR_ECHO, 300); //instantiate NewPing sonar object
 
-
-//////////////// End Functions //////////////////
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600); //initialize serial communication
@@ -43,5 +41,4 @@ void loop() {
   }
 
   delay(25); //controls how fast(in ms) code will be executed
-
 }
