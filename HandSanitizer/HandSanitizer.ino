@@ -8,7 +8,7 @@
 #define SONAR_ECHO 8
 
 /*Define Parameters */
-#define SONAR_THRESHOLD 15 // Threshold distance in which to actuate the servo[cm]
+#define SONAR_THRESHOLD 8 // Threshold distance in which to actuate the servo[cm]
 #define RETRACTED_ANGLE 0 // Servo Angle when the hand sanitizer nozzle is up [deg]
 #define PUMP_ANGLE 100 // Servo Angle when the hand sanitizer nozzle is down [deg]
 #define PUMP_TIME 1500 //Time the servo will stay in "pump mode" [ms]
